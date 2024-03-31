@@ -1,0 +1,3 @@
+# This file is uploaded to the repository only because this is a practice project
+
+DATABASE_URL="file:./dev.db"
