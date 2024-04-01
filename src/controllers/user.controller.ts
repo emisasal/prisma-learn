@@ -1,5 +1,5 @@
 import { Request, Response } from "express"
-import { prisma } from "../db"
+import { prisma } from "../client"
 
 export const createUser = async (req: Request, res: Response) => {
   const { email, name, lastname } = req.body
