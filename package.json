@@ -4,8 +4,7 @@
   "description": "Backend practice using Prisma ORM",
   "main": "index.js",
   "scripts": {
-    "dev": "npx nodemon api/index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon api/index.ts"
   },
   "keywords": [],
   "author": "Emiliano Sasal",
