@@ -5,7 +5,7 @@ import post from "./post.route"
 
 const router = Router()
 
-router.use("/", user)
-router.use("/", post)
+router.use("/user", user)
+router.use("/post", post)
 
 export default router
